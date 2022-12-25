@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div id="wrapper">
+    <header>
+        <div id="page-banner">
+            <h1 class="title">Kitaplik</h1>
+            <p>Kitap listesi</p>
+            <form id="search-books">
+                <input type="text" placeholder="Kitaplar ara...">
+            </form>
+        </div>
+    </header>
+    <div id="book-list">
+        <h2 class="title">Okunulacak Kitaplar</h2>
+        <ul>
+            
+        </ul>
+    </div>
+    <form id="add-book">
+        <input type="text" placeholder="Kitap ekle...">
+        <button>Ekle</button>
+        <input type="checkbox" id="hide">
+        <label for="hide">Tum kitaplari gizle</label>
+    </form>
+    <div id="tabbed-content">
+        <ul class="tabs">
+            <li data-target="#about" class="active">Hakkinda</li>
+            <li data-target="#contact">Iletisim</li>
+        </ul>
+        <div class="panel active" id="about">
+            <p>Hakkinda icin icerikler kismi...</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, iste. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, quae?</p>
+        </div>
+        <div class="panel" id="contact">
+            <p>Iletisim icin icerikler kismi...</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, iste. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, quae?</p>
+        </div>
+    </div>
+   </div>
+    <script src="main.js" ></script>
+</body>
+</html>

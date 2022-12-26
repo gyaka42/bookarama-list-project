@@ -1,7 +1,9 @@
 body{
     font-family: Tahoma;
-    color: #444;
+    color: rgb(0, 0, 0);
     letter-spacing: 1px;
+    background: linear-gradient(#444, #4f7dd1);
+    height: 100vh;
 }
 
 h1, h2{
@@ -18,10 +20,11 @@ h1, h2{
     padding: 0 0 20px;
     overflow: hidden;
     border: 1px solid lightgray;
+    background: #fff;
 }
 
 #page-banner{
-    background: #eee ;
+    background-image: url(./assets/banner.jpg);
     padding: 10px 0;
 
 }
@@ -30,6 +33,7 @@ h1, h2{
     width: 100%;
     text-align: center;
     margin: 10px 0;
+    color: #ddd;
 }
 
 #page-banner input{
